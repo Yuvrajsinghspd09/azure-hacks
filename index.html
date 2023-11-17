@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vocabulary Builder App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Vocabulary Builder App</h1>
+
+    <div class="word-display">
+      <h2>Word:</h2>
+      <p id="displayed-word">---</p>
+      <h2>Translation:</h2>
+      <p id="translated-word">---</p>
+    </div>
+
+    <div class="input-section">
+      <input type="text" id="word-input" placeholder="Enter a word">
+      <button onclick="translateWord()">Translate</button>
+    </div>
+
+    <div class="pronunciation-section">
+      <button onclick="pronounceWord()">Pronounce</button>
+    </div>
+
+    <div class="quiz-section">
+      <!-- Quiz elements will go here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
